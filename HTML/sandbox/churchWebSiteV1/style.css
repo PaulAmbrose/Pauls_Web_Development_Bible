@@ -1,4 +1,5 @@
 .flex-container {
+    background-color: rgb(23, 119, 197);
     display: flex;
     flex-direction: column;
     flex-wrap: wrap-reverse;
@@ -6,8 +7,13 @@
     align-items: normal;
     align-content: normal;
   }
-  
+  .division{
+
+    border: dashed 1px red;
+  }
+
   .flex-items:nth-child(1) {
+
     display: block;
     flex-grow: 0;
     flex-shrink: 1;
