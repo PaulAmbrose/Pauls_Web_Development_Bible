@@ -2,7 +2,9 @@
     /*display: inline-grid;*/
     display: grid;
     border:dotted 1px blue;
+    /*grid-template-rows: 1fr;*/
     grid-template-rows: 1fr 1fr 1fr;
+    /*grid-template-columns: 1fr*/;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
