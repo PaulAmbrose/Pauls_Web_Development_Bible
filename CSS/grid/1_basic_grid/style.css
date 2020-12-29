@@ -3,7 +3,7 @@
 
     border:dotted 1px blue;
     grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 
 #container2{
@@ -12,6 +12,7 @@
     border:dotted 1px blue;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
+
 }
 
 #container3{
@@ -28,8 +29,4 @@
     border:dotted 1px blue;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;
-}
-
-.subdiv{
-    border:solid 1px green;
 }
