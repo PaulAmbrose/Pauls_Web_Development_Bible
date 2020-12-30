@@ -3,8 +3,16 @@
     grid-gap:20px;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-
 }
+
+#skyline{
+    grid-column: 1 / span 2;
+}
+
+#church{
+    grid-column: 3 / span 4;
+}
+
 .pictures{
     height: 100%;
     max-width: 100%;
