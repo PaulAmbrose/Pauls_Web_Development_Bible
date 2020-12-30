@@ -2,48 +2,49 @@
     display: grid;
     grid-gap:2rem;
 
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.1fr 4fr 4fr 4fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 
 }
 
-#logo{
-    grid-row: 1;
-    grid-column: 1;
-}
+    #logo{
+        grid-row: 1;
+        grid-column: 1;
+    }
 
-#skyline{
-    grid-row: 2;
-    grid-column: 1 / span 2;
-}
+    #skyline{
+        grid-row: 2;
+        grid-column: 1 / span 2;
+    }
 
-#church{
-    grid-row: 2;
-    grid-column: 3 / span 4;
-}
+    #church{
+        grid-row: 2;
+        grid-column: 3 / span 4;
+    }
 
-#recordings{
-    grid-row:3;
-    grid-column: 1;
-}
+    #recordings{
+        grid-row:3;
+        grid-column: 1;
+    }
 
-#people{
-    grid-row:3;
-    grid-column: 2;
-}
+    #people{
+        grid-row:3;
+        grid-column: 2;
+    }
 
-#glass{
-    grid-row:3;
-    grid-column: 3;
-}
+    #glass{
+        grid-row:3;
+        grid-column: 3;
+    }
 
-#study{
-    grid-row:3;
-    grid-column: 4;
-}
+    #study{
+        grid-row:3;
+        grid-column: 4;
+    }
 
 .pictures{
-    max-height: fit-content;
+    min-height: 100%;
+    max-height: 100%;
     max-width: 100%;
     min-width: 100%;
     opacity: 0.5;
