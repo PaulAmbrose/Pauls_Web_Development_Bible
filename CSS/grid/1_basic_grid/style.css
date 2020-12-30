@@ -9,7 +9,7 @@
 
 #logo{
     grid-row: 1;
-    grid-column: 1 / span 2;
+    grid-column: 1;
 }
 
 #skyline{
@@ -43,7 +43,7 @@
 }
 
 .pictures{
-    height: 100%;
+    max-height: fit-content;
     max-width: 100%;
     min-width: 100%;
     opacity: 0.5;
