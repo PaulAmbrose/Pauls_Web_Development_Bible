@@ -7,12 +7,39 @@
 
 }
 
+#logo{
+    grid-row: 1;
+    grid-column: 1 / span 2;
+}
+
 #skyline{
+    grid-row: 2;
     grid-column: 1 / span 2;
 }
 
 #church{
+    grid-row: 2;
     grid-column: 3 / span 4;
+}
+
+#recordings{
+    grid-row:3;
+    grid-column: 1;
+}
+
+#people{
+    grid-row:3;
+    grid-column: 2;
+}
+
+#glass{
+    grid-row:3;
+    grid-column: 3;
+}
+
+#study{
+    grid-row:3;
+    grid-column: 4;
 }
 
 .pictures{
