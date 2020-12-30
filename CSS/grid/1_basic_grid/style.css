@@ -1,31 +1,10 @@
 #container1{
     display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
-}
-
-#container2{
-    display: grid;
-    grid-gap: 2rem;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr;
-    padding: 2rem;
-}
-
-#container3{
-    display: grid;
-    grid-gap: 2rem;
-    grid-template-rows: 1fr;
+    grid-gap:20px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 2rem;
-}
 
-#container4{
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
 }
-
 .pictures{
     height: 100%;
     max-width: 100%;
