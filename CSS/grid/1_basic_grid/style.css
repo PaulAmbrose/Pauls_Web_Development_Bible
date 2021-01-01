@@ -10,6 +10,10 @@
         grid-column: 1;
     }
 
+    #optionsBar{
+        list-style-type: none;
+    }
+
     #skyline{
         grid-row: 2;
         grid-column: col-1-start / col-3-start;
