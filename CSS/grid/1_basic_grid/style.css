@@ -11,12 +11,18 @@
     }
 
     #optionsBar{
-        list-style-type: none;
+        grid-row: 1;
+        grid-column: col-3-start / col-4-end;
     }
 
     .optionsBarItem{
         display: inline;
+        color: rgb(9, 46, 43);
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 30px;
         float: center;
+        list-style-type: none;
+        padding: 10px;
     }
 
     #skyline{
