@@ -26,11 +26,13 @@
     }
 
     #skyline{
+        border-top: double;
         grid-row: 2;
         grid-column: col-1-start / col-3-start;
     }
 
     #church{
+        border-top: double;
         grid-row: 2;
         grid-column: col-3-start / col-4-end;
     }
