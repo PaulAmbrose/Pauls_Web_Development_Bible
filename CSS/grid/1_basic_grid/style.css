@@ -26,33 +26,37 @@
     }
 
     #skyline{
-        border-top: double;
+        border: double;
         grid-row: 2;
         grid-column: col-1-start / col-3-start;
     }
 
     #church{
-        border-top: double;
+        border: double;
         grid-row: 2;
         grid-column: col-3-start / col-4-end;
     }
 
     #recordings{
+        border: double;
         grid-row:3;
         grid-column: 1;
     }
 
     #people{
+        border: double;
         grid-row:3;
         grid-column: 2;
     }
 
     #glass{
+        border: double;
         grid-row:3;
         grid-column: 3;
     }
 
     #study{
+        border: double;
         grid-row:3;
         grid-column: 4;
     }
