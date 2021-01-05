@@ -3,8 +3,8 @@
     grid-gap:1rem;
 
     grid-template-areas: "header header header header"
-                         "row1 row1 row1 row1"
-                         "row2 row2 row2 row2"
+                         "box1 box2 box3 box4"
+                         "box5 box6 box7 box8"
                          "footer footer footer footer";
     grid-template-rows: 25% 25% 25% 25%;
     grid-template-columns: 25% 25% 25% 25%;
@@ -32,38 +32,42 @@
 
     #skyline{
         border: double;
-        grid-row-start: row1;
-        grid-row-end: row1;
+        grid-row-start: box1;
+        grid-row-end: box2;
+        grid-column-start: box1;
+        grid-column-end: box2;
     }
 
     #church{
         border: double;
-        grid-row-start: row1;
-        grid-row-end: row1;
+        grid-row-start: box3;
+        grid-row-end: box4;
+        grid-column-start: box3;
+        grid-column-end: box4;
     }
 
     #recordings{
         border: double;
-        grid-row-start: row2;
-        grid-row-end: row2;
+        grid-row-start: box5;
+        grid-row-end: box5;
     }
 
     #people{
         border: double;
-        grid-row-start: row2;
-        grid-row-end: row2;
+        grid-row-start: box6;
+        grid-row-end: box6;
     }
 
     #glass{
         border: double;
-        grid-row-start: row2;
-        grid-row-end: row2;
+        grid-row-start: box7;
+        grid-row-end: box7;
     }
 
     #study{
         border: double;
-        grid-row-start: row2;
-        grid-row-end: row2;
+        grid-row-start: box8;
+        grid-row-end: box8;
     }
 
 .pictures{
