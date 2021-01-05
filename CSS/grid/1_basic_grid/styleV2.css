@@ -44,8 +44,8 @@
 
     #recordings{
         border: double;
-        grid-row-start: row1;
-        grid-row-end: row1;
+        grid-row-start: row2;
+        grid-row-end: row2;
     }
 
     #people{
