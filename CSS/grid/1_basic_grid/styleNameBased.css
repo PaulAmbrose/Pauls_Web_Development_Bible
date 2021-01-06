@@ -13,11 +13,15 @@
     #logo{
         grid-row-start: header1;
         grid-row-end: header2;
+        grid-column-start: header1;
+        grid-column-end: header2;
     }
 
     #optionsBar{
         grid-row-start: header3;
         grid-row-end: header4;
+        grid-column-start: header3;
+        grid-column-end: header4;
     }
 
     .optionsBarItem{
