@@ -2,7 +2,7 @@
     display: grid;
     grid-gap:1rem;
 
-    grid-template-areas: "header header header header"
+    grid-template-areas: "header1 header2 header3 header4"
                          "box1 box2 box3 box4"
                          "box5 box6 box7 box8"
                          "footer footer footer footer";
@@ -11,13 +11,13 @@
                         }
 
     #logo{
-        grid-row-start: header;
-        grid-row-end: header;
+        grid-row-start: header1;
+        grid-row-end: header2;
     }
 
     #optionsBar{
-        grid-row-start: header;
-        grid-row-end: header;
+        grid-row-start: header3;
+        grid-row-end: header4;
     }
 
     .optionsBarItem{
