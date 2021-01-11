@@ -1,8 +1,5 @@
-#container1{
+.container{
     border-style: dotted;
     border-color: red;
     display: grid;
-    grid-gap:1rem;
-
-    grid-template-columns: [col-1-start] 1fr [col-2-start] 1fr [col-3-start] 1fr [col-3-end]
 }
