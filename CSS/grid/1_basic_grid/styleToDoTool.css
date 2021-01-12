@@ -1,7 +1,7 @@
 #main{
     display: grid;
     grid-template-columns: [col-1-start] 1fr [col-2-start] 1fr [col-3-start] 1fr [col-4-start];
-    grid-template-rows: [row-1-start] 300px [row-2-start] 300px [row-3-start];
+    grid-template-rows: [row-1-start] 300px [row-2-start] 300px [row-3-start] 300px [row-3-start];
 }
 
 #todayList{
