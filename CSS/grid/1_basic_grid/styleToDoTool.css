@@ -1,34 +1,32 @@
 #main{
-    border-style: dotted;
-    border-color: red;
-    display: inline-grid;
-
-    grid-template-areas: 
-    "todayList todoList daysSinceList"
-    "footer footer footer";
-    grid-template-columns: 25% 25% 25%;
-    grid-template-rows: 90% 10%;
+    display: grid;
+    grid-template-columns: [col-1-start] 1fr [col-2-start] 1fr [col-3-start] 1fr [col-4-start];
+    grid-template-rows: [row-1-start] 300px [row-2-start] 300px [row-3-start];
 }
 
 #todayList{
-    grid-column-start:todayList;
-    grid-column-end:footer;
-    grid-row-start:todayList;
-    grid-row-end:todoList;
+    border-style: dotted;
+    border-color: red;
 }
 
 #todoList{
-    grid-column-start:todoList;
-    grid-column-end:footer;
-    grid-row-start:todoList;
-    grid-row-end:daysSinceList;
-
+    border-style: dotted;
+    border-color: rgb(17, 0, 255);
 }
 
 #daysSinceList{
-    grid-column-start:daysSinceList;
-    grid-column-end:footer;
-    grid-row-start:daysSinceList;
-    grid-row-end:daysSinceList;
+    border-style: dotted;
+    border-color: rgb(0, 255, 34);
+}
 
+#header{
+    border-style: dotted;
+    border-color: rgb(255, 0, 221);
+    grid-column: row-1-start / row-2-start;
+    grid-row: row-1-start / row-3-start;
+}
+
+#footer{
+    border-style: dotted;
+    border-color: rgb(255, 251, 0);
 }
