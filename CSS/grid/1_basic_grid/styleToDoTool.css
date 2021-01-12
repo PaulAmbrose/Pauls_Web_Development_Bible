@@ -1,5 +1,12 @@
-.container{
+#main{
     border-style: dotted;
     border-color: red;
-    display: grid;
+    display: inline-grid;
+
+    grid-template-areas: 
+    "todayList todoList daysSinceList"
+    "footer footer footer";
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 90% 10%;
+
 }
