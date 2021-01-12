@@ -8,5 +8,27 @@
     "footer footer footer";
     grid-template-columns: 25% 25% 25%;
     grid-template-rows: 90% 10%;
+}
+
+#todayList{
+    grid-column-start:todayList;
+    grid-column-end:footer;
+    grid-row-start:todayList;
+    grid-row-end:todoList;
+}
+
+#todoList{
+    grid-column-start:todoList;
+    grid-column-end:footer;
+    grid-row-start:todoList;
+    grid-row-end:daysSinceList;
+
+}
+
+#daysSinceList{
+    grid-column-start:daysSinceList;
+    grid-column-end:footer;
+    grid-row-start:daysSinceList;
+    grid-row-end:daysSinceList;
 
 }
