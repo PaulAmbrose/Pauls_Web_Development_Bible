@@ -1,7 +1,7 @@
 #main{
     display: grid;
     grid-template-columns: [col-1-start] 1fr [col-2-start] 1fr [col-3-start] 1fr [col-4-start];
-    grid-template-rows: [row-1-start] 300px [row-2-start] 300px [row-3-start] 300px [row-3-start];
+    grid-template-rows: [row-1-start] 300px [row-2-start] 300px [row-3-start] 300px [row-4-start];
 }
 
 #todayList{
@@ -22,7 +22,7 @@
 #header{
     border-style: dotted;
     border-color: rgb(255, 0, 221);
-    grid-column: row-1-start / row-2-start;
+    grid-column: col-1-start / col-2-start;
     grid-row: row-1-start / row-3-start;
 }
 
