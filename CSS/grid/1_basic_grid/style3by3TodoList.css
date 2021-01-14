@@ -1,7 +1,7 @@
 #main{
     display: grid;
     grid-template-columns: [col-1-start] 1fr [col-2-start] 1fr [col-3-start] 1fr [col-4-start];
-    grid-template-rows: [row-1-start] 1fr [row-2-start] 3fr [row-3-start] 1fr [row-4-start];
+    grid-template-rows: [row-1-start] 1fr [row-2-start] 5fr [row-3-start] 1fr [row-4-start];
     height: 900px;
 }
 

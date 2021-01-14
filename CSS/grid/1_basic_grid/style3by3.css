@@ -5,17 +5,17 @@
     height: 900px;
 }
 
-#todayList{
+#one{
     border-style: dotted;
     border-color: red;
 }
 
-#todoList{
+#two{
     border-style: dotted;
     border-color: rgb(17, 0, 255);
 }
 
-#daysSinceList{
+#three{
     border-style: dotted;
     border-color: rgb(0, 255, 34);
 }
