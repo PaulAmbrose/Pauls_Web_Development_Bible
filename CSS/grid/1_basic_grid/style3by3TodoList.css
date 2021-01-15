@@ -27,8 +27,6 @@
 }
 
 #header{
-    border-style: dotted;
-    border-color: rgb(255, 0, 221);
     grid-column-start: col-1-start;
     grid-column-end: col-5-start;
 }
