@@ -37,3 +37,8 @@
     grid-column-start: col-1-start;
     grid-column-end: col-5-start;
 }
+
+#titlePic{
+    display: block;
+    margin: 0 auto;
+}
