@@ -8,7 +8,7 @@ body {
   margin: 40px;
   font-family: 'Open Sans', 'sans-serif';
   background-color: #fff;
-  color: #444;
+  color: rgb(4, 56, 155);
 }
 
 h1,
@@ -43,8 +43,8 @@ p {
   margin-left: 5px;
   margin-right: 5px;
   flex: 1 1 200px;
-  max-height: 200px;
-  max-width: 200px;
+  max-height: 150px;
+  max-width: 150px;
 }
 
 .header,
@@ -57,7 +57,7 @@ p {
 }
 
 .wrapper > * {
-  background-color: #444;
+  background-color:rgb(4, 56, 155);
   color: #fff;
   border-radius: 5px;
   padding: 20px;
