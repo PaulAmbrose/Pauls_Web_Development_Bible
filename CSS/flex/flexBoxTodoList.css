@@ -1,0 +1,44 @@
+#main{
+    background-color: black;
+    color: white; 
+    display: flex;
+    /*flex-direction: column;*/
+    flex-wrap: nowrap;
+    height: 900px;
+}
+
+#todayList{
+    border-style: dotted;
+    border-color: red;
+}
+
+#todoList{
+    border-style: dotted;
+    border-color: rgb(17, 0, 255);
+}
+
+#daysSinceList{
+    border-style: dotted;
+    border-color: rgb(0, 255, 34);
+}
+#options{
+    border-style: dotted;
+    border-color: rgb(0, 195, 255);
+}
+
+#header{
+    grid-column-start: col-1-start;
+    grid-column-end: col-5-start;
+}
+
+#footer{
+    border-style: dotted;
+    border-color: rgb(255, 217, 0);
+    grid-column-start: col-1-start;
+    grid-column-end: col-5-start;
+}
+
+#titlePic{
+    display: block;
+    margin: 0 auto;
+}
