@@ -56,4 +56,23 @@
       width: auto;
       margin: 0;
     }
+
+    .actions {
+      background-color: #4CAF50; /* Green */
+      border: none;
+      border-radius: 8px;
+      color: rgb(132, 211, 158);
+      display: inline-block;
+      font-size: 16px;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      transition-duration: 0.4s;
+      width: 25%;
+    }
+
+    .actions:hover {
+      background-color: #eb8e42; /* Green */
+      color: white;
+    }
   }
