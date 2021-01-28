@@ -1,11 +1,17 @@
 .container {
+    background-color: cornsilk;
     display: grid;
     grid-template-rows: auto 1fr auto;
-    height: 100vh;
+    height: 99vh;
   }
   
 .item{
-    border:brown;
-    border-width: 5px;
+    border:rgb(0, 41, 223);
+    border-width: 2px;
     border-style: solid;
+    border-radius: 5px;
   }
+
+.options{
+    
+}
