@@ -1,5 +1,5 @@
 .container {
-    background-color: cornsilk;
+    background-color: white;
     display: grid;
     grid-template-rows: auto 1fr auto;
     height: 99vh;
