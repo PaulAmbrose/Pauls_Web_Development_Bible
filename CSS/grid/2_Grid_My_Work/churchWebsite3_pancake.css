@@ -2,11 +2,12 @@
     background-color: white;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    grid-gap: 2px;
     height: 99vh;
   }
   
 .item{
-    border:rgb(0, 41, 223);
+    border:rgb(2, 68, 57);
     border-width: 2px;
     border-style: solid;
     border-radius: 5px;
