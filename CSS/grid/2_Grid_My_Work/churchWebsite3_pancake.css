@@ -12,3 +12,11 @@
     border-style: solid;
     border-radius: 5px;
   }
+
+  .menu{
+    color: rgb(2, 68, 57);
+  }
+
+  #logo{
+    text-align: start;
+  }
