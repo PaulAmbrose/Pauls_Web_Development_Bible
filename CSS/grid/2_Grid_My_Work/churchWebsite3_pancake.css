@@ -13,15 +13,11 @@
     border-radius: 5px;
   }
 
-.header{
-    display: flex;
-    flex-direction: row;
-}
-
 .menu{
+    align-items: center;
     color: rgb(2, 68, 57);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
     padding: 0.5%;
+    vertical-align: middle;
   }
-
