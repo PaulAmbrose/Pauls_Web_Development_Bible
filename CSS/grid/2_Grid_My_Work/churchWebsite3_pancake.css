@@ -23,6 +23,9 @@
   }
 
   #painting{
+    display: block;
     opacity: 50%;
-    align-content: left;
+    margin-left: auto;
+    margin-right: 10%;
+    width:40%;
   }
