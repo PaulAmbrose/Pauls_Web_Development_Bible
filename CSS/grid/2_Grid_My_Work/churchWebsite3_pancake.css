@@ -1,5 +1,6 @@
 :root{
   --main-color: rgb(6, 7, 87) 
+
 }
 
 .container {
@@ -21,9 +22,9 @@
 .menu{
     align-items: center;
     color: var(--main-color);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Josefin Sans', sans-serif;
     font-size: 25px;
-    padding: 0.5%;
+    padding: 1%;
     vertical-align: middle;
   }
 
