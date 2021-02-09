@@ -3,6 +3,11 @@
 
 }
 
+/*linear-gradient(
+      35deg,
+      #ccffff,
+      #ffcccc*/
+
 .container {
     background-color: white;
     display: grid;
