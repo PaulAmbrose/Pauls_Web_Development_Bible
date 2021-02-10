@@ -1,12 +1,12 @@
-:root{
-  --main-color: rgb(6, 7, 87) 
-
-}
-
-/*linear-gradient(
+/*background: linear-gradient(
       35deg,
       #ccffff,
-      #ffcccc*/
+      #ffcccc);*/
+
+
+:root{
+  --main-color: rgb(6, 7, 87) 
+}
 
 .container {
     background-color: white;
