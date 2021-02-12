@@ -26,17 +26,21 @@ header{
     border-style: solid;
     border-radius: 5px;
     color:var(--main-color);
-    padding: 10px;
   }
 
 .menu{
-
+    align-content: stretch;
     color: var(--main-color);
     font-family:'Josefin Sans', sans-serif;
     font-size: 25px;
     padding: 1%;
-    vertical-align: middle;
   }
+
+#menuBar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
 
 #painting{
     display: block;
