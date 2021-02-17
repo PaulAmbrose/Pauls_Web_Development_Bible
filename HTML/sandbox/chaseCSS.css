@@ -25,3 +25,11 @@
 
   border-radius: 20px;
 }
+
+#section1{
+  z-index: 3;
+  height: 100px;
+  width: auto;
+  background-color: turquoise;
+  margin: 10px;
+}
