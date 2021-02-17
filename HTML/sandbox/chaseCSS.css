@@ -12,4 +12,16 @@
 
 #blackBackground{
   
+  position: absolute;
+    left: 500px;
+    top: 1200px;
+    z-index: 2;
+
+  width: 800px;
+  height: 550px;
+  background:black;
+  transform: perspective(10px) rotateX(1deg);
+  margin: 50px;
+
+  border-radius: 20px;
 }
