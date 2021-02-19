@@ -102,3 +102,7 @@
 
   border-radius: 20px;
 }
+
+.section :hover{
+  background-color:red;
+}
