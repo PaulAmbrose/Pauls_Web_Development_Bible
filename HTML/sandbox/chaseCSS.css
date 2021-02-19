@@ -1,3 +1,8 @@
+:root{
+  --qSectionSize: 68px;
+}
+
+
 #container {
     background-color: black;
     display: grid;
@@ -28,56 +33,70 @@
 
 #section1{
   z-index: 3;
-  height: 100px;
+  height: var(--qSectionSize);
   width: auto;
   background-color: turquoise;
   margin: 10px;
+
+  border-radius: 20px;
 }
 
 #section2{
   z-index: 3;
-  height: 100px;
+  height: var(--qSectionSize);
   width: auto;
   background-color: turquoise;
   margin: 10px;
+
+  border-radius: 20px;
 }
 
 #section3{
   z-index: 3;
-  height: 100px;
+  height: var(--qSectionSize);
   width: auto;
   background-color: turquoise;
   margin: 10px;
+
+  border-radius: 20px;
 }
 
 #section4{
   z-index: 3;
-  height: 100px;
+  height: var(--qSectionSize);
   width: auto;
   background-color: turquoise;
   margin: 10px;
+
+  border-radius: 20px;
 }
 
 #section5{
   z-index: 3;
-  height: 100px;
+  height: var(--qSectionSize);
   width: auto;
   background-color: turquoise;
   margin: 10px;
+
+  border-radius: 20px;
 }
 
 #section6{
   z-index: 3;
-  height: 100px;
+  height: var(--qSectionSize);
   width: auto;
   background-color: turquoise;
   margin: 10px;
+
+  border-radius: 20px;
 }
 
 #section7{
   z-index: 3;
-  height: 100px;
+  height: var(--qSectionSize);
   width: auto;
   background-color: turquoise;
   margin: 10px;
+
+  border-radius: 20px;
 }
