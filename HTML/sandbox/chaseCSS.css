@@ -4,7 +4,6 @@
   --qSectionMargin: 10px;
 }
 
-
 #container {
     background-color: black;
     display: grid;
@@ -101,8 +100,4 @@
   margin: var(--qSectionMargin);
 
   border-radius: 20px;
-}
-
-.section :hover{
-  background-color:red;
 }
