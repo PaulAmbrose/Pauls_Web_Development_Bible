@@ -1,5 +1,7 @@
 :root{
   --qSectionSize: 68px;
+  --qSectionColor: blue;
+  --qSectionMargin: 10px;
 }
 
 
@@ -35,8 +37,8 @@
   z-index: 3;
   height: var(--qSectionSize);
   width: auto;
-  background-color: turquoise;
-  margin: 10px;
+  background-color: var(--qSectionColor);
+  margin:  var(--qSectionMargin);
 
   border-radius: 20px;
 }
@@ -45,8 +47,8 @@
   z-index: 3;
   height: var(--qSectionSize);
   width: auto;
-  background-color: turquoise;
-  margin: 10px;
+  background-color: var(--qSectionColor);
+  margin: var(--qSectionMargin);
 
   border-radius: 20px;
 }
@@ -55,8 +57,8 @@
   z-index: 3;
   height: var(--qSectionSize);
   width: auto;
-  background-color: turquoise;
-  margin: 10px;
+  background-color: var(--qSectionColor);
+  margin: var(--qSectionMargin);
 
   border-radius: 20px;
 }
@@ -65,8 +67,8 @@
   z-index: 3;
   height: var(--qSectionSize);
   width: auto;
-  background-color: turquoise;
-  margin: 10px;
+  background-color:  var(--qSectionColor);
+  margin: var(--qSectionMargin);
 
   border-radius: 20px;
 }
@@ -75,8 +77,8 @@
   z-index: 3;
   height: var(--qSectionSize);
   width: auto;
-  background-color: turquoise;
-  margin: 10px;
+  background-color:  var(--qSectionColor);
+  margin: var(--qSectionMargin);
 
   border-radius: 20px;
 }
@@ -85,8 +87,8 @@
   z-index: 3;
   height: var(--qSectionSize);
   width: auto;
-  background-color: turquoise;
-  margin: 10px;
+  background-color:  var(--qSectionColor);
+  margin: var(--qSectionMargin);
 
   border-radius: 20px;
 }
@@ -95,8 +97,8 @@
   z-index: 3;
   height: var(--qSectionSize);
   width: auto;
-  background-color: turquoise;
-  margin: 10px;
+  background-color:  var(--qSectionColor);
+  margin: var(--qSectionMargin);
 
   border-radius: 20px;
 }
