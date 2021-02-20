@@ -38,13 +38,13 @@ function claimPlayer1(){
                             section7.classList.add("selectedPlayer");
                             };
 
-                            section1.addEventListener("mouseover", claimChaser1);
-                            section2.addEventListener("mouseover", claimChaser2);
-                            section3.addEventListener("mouseover", claimChaser3);
-                            section4.addEventListener("mouseover", claimChaser4);
-                            section5.addEventListener("mouseover", claimChaser5);
-                            section6.addEventListener("mouseover", claimChaser6);
-                            section7.addEventListener("mouseover", claimChaser7);
+                            section1.addEventListener("contextmenu", claimChaser1);
+                            section2.addEventListener("contextmenu", claimChaser2);
+                            section3.addEventListener("contextmenu", claimChaser3);
+                            section4.addEventListener("contextmenu", claimChaser4);
+                            section5.addEventListener("contextmenu", claimChaser5);
+                            section6.addEventListener("contextmenu", claimChaser6);
+                            section7.addEventListener("contextmenu", claimChaser7);
 
                             function claimChaser1(){
                                 section1.classList.add("selectedChaser");
