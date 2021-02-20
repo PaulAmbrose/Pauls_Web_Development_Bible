@@ -1,6 +1,6 @@
 :root{
   --qSectionSize: 68px;
-  --qSectionColor: blue;
+  --qSectionColor: turquoise;
   --qSectionMargin: 10px;
 }
 
@@ -44,4 +44,8 @@
 
 .selectedChaser{
   background-color: red;
+}
+
+.selectedPlayer{
+  background-color: blue;
 }
