@@ -38,13 +38,13 @@ function claimPlayer1(){
                             section7.classList.add("selectedPlayer");
                             };
 
-                            section1.addEventListener("contextmenu", ( e )=> { e.preventDefault(); return false; } , claimChaser1);
-                            section2.addEventListener("contextmenu", ( e )=> { e.preventDefault(); return false; } , claimChaser2);
-                            section3.addEventListener("contextmenu", ( e )=> { e.preventDefault(); return false; } , claimChaser3);
-                            section4.addEventListener("contextmenu", ( e )=> { e.preventDefault(); return false; } , claimChaser4);
-                            section5.addEventListener("contextmenu", ( e )=> { e.preventDefault(); return false; } , claimChaser5);
-                            section6.addEventListener("contextmenu", ( e )=> { e.preventDefault(); return false; } , claimChaser6);
-                            section7.addEventListener("contextmenu", ( e )=> { e.preventDefault(); return false; } , claimChaser7);
+                            section1.addEventListener("mouseover", claimChaser1);
+                            section2.addEventListener("mouseover", claimChaser2);
+                            section3.addEventListener("mouseover", claimChaser3);
+                            section4.addEventListener("mouseover", claimChaser4);
+                            section5.addEventListener("mouseover", claimChaser5);
+                            section6.addEventListener("mouseover", claimChaser6);
+                            section7.addEventListener("mouseover", claimChaser7);
 
                             function claimChaser1(){
                                 section1.classList.add("selectedChaser");
