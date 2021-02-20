@@ -32,7 +32,7 @@
   border-radius: 20px;
 }
 
-#section1{
+.section{
   z-index: 3;
   height: var(--qSectionSize);
   width: auto;
@@ -42,90 +42,6 @@
   border-radius: 20px;
 }
 
-#section2{
-  z-index: 3;
-  height: var(--qSectionSize);
-  width: auto;
-  background-color: var(--qSectionColor);
-  margin: var(--qSectionMargin);
-
-  border-radius: 20px;
-}
-
-#section3{
-  z-index: 3;
-  height: var(--qSectionSize);
-  width: auto;
-  background-color: var(--qSectionColor);
-  margin: var(--qSectionMargin);
-
-  border-radius: 20px;
-}
-
-#section4{
-  z-index: 3;
-  height: var(--qSectionSize);
-  width: auto;
-  background-color:  var(--qSectionColor);
-  margin: var(--qSectionMargin);
-
-  border-radius: 20px;
-}
-
-#section5{
-  z-index: 3;
-  height: var(--qSectionSize);
-  width: auto;
-  background-color:  var(--qSectionColor);
-  margin: var(--qSectionMargin);
-
-  border-radius: 20px;
-}
-
-#section6{
-  z-index: 3;
-  height: var(--qSectionSize);
-  width: auto;
-  background-color:  var(--qSectionColor);
-  margin: var(--qSectionMargin);
-
-  border-radius: 20px;
-}
-
-#section7{
-  z-index: 3;
-  height: var(--qSectionSize);
-  width: auto;
-  background-color:  var(--qSectionColor);
-  margin: var(--qSectionMargin);
-
-  border-radius: 20px;
-}
-
-#section1:hover{
-  background-color:red;
-}
-
-#section2:hover{
-  background-color:red;
-}
-
-#section3:hover{
-  background-color:red;
-}
-
-#section4:hover{
-  background-color:red;
-}
-
-#section5:hover{
-  background-color:red;
-}
-
-#section6:hover{
-  background-color:red;
-}
-
-#section7:hover{
-  background-color:red;
+.selectedChaser{
+  background-color: red;
 }
