@@ -15,7 +15,6 @@ section5.addEventListener("click", claimPlayer);
 section6.addEventListener("click", claimPlayer);
 section7.addEventListener("click", claimPlayer);
 
-
 function claimPlayer(){
     test = this.classList.contains("selectedPlayer");
     test2 = this.classList.contains("selectedChaser");
@@ -31,4 +30,3 @@ function claimPlayer(){
         this.classList.remove("selectedChaser");
     }
 }
-
