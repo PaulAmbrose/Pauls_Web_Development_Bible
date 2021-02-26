@@ -1,6 +1,6 @@
 :root{
   --qSectionSize: 68px;
-  --qSectionColor: turquoise;
+  --qSectionColor: Blue;
   --qSectionMargin: 10px;
 }
 
@@ -47,5 +47,5 @@
 }
 
 .selectedPlayer{
-  background-color: blue;
+  background-color: turquoise;
 }
