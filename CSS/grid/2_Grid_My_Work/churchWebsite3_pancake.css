@@ -44,3 +44,29 @@ header{
     font-family:'Josefin Sans', sans-serif;
     font-size: 40px;
   }
+
+#blurb{
+    font-size: 40px;
+    display: inline;
+}
+
+#picture{
+    display: inline;
+}
+
+#display{
+  
+}
+
+#div1{
+  border: purple;
+  border-width: 2px;
+  border-style: solid;
+}
+
+#div2{
+  border: red;
+  border-width: 2px;
+  border-style: solid;
+
+}
