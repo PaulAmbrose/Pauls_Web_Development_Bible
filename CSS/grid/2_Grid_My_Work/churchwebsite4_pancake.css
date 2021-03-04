@@ -48,3 +48,15 @@ header{
     border-radius: 50px;
     color: white;
 }
+
+main{
+    display: flex;
+}
+
+.main--content{
+    flex: 1;
+}
+
+.main--image{
+    flex: 1;
+}
