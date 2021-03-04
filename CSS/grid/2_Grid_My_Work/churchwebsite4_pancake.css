@@ -79,4 +79,6 @@ main{
 .playbutton{
     border: 1px solid #e0e0ee;
     padding: 10px 36px;
+    background: transparent;
+    border-radius: 50px;
 }
