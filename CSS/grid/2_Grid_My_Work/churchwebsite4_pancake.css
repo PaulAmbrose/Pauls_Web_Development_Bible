@@ -28,6 +28,7 @@ header{
 
 .navigation{
     flex-grow: 1;
+    margin-left: 40px;
 }
 
 .navigation--item{
@@ -36,3 +37,11 @@ header{
     margin-left: 24px;
 }
 
+.navigation--item__active{
+    color: #333;
+}
+
+.navigation--button{
+    border: none;
+    background: linear-gradient(270deg, #faa245, #d8328a 37.25%, #753872 100%);
+}
