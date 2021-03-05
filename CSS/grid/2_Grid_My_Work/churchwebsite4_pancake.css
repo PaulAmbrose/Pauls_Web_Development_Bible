@@ -42,6 +42,10 @@ header{
     margin-left: 24px;
 }
 
+.navigation--item:hover{
+    color: #333;
+}
+
 .navigation--item__active{
     color: #333;
 }
@@ -119,4 +123,8 @@ footer{
 
 .social--item{
     margin-right: 12px;
+}
+
+.social--item:hover{
+    color: #333;
 }
