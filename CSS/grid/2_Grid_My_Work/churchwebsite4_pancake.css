@@ -81,4 +81,23 @@ main{
     padding: 10px 36px;
     background: transparent;
     border-radius: 50px;
+    display: flex;
+    align-items: center;
+
+    background: -webkit-linear-gradient(
+        180deg,
+        #faa245 0%,
+        #d8328a 37.25%,
+        #753872 100%
+    );
+    
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-play-circle{
+    background: inherit;
+    font-size: 1.25rem;
+    margin-right: 6px;
 }
