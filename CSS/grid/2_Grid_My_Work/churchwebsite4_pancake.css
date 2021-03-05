@@ -19,6 +19,11 @@ p{
 #container{
     max-width: 1200px;
     padding: 24px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
 }
 
 header{
@@ -51,6 +56,7 @@ header{
 
 main{
     display: flex;
+    align-items: center;
 }
 
 .main--content{
@@ -104,8 +110,13 @@ main{
 
 footer{
     display: flex;
+    color: #bdbdbd;
 }
 
 .socials{
     margin-right: 40px;
+}
+
+.social--item{
+    margin-right: 12px;
 }
