@@ -128,3 +128,10 @@ footer{
 .social--item:hover{
     color: #333;
 }
+
+@media only screen and (max-width: 660px){
+    main{
+        display: block;
+    }
+}
+/*20:32*/
