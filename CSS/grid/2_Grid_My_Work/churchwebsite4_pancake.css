@@ -58,10 +58,6 @@ header{
     color: white;
 }
 
-.fa-fire{
-    font-size:50px;
-}
-
 main{
     display: flex;
     align-items: center;
