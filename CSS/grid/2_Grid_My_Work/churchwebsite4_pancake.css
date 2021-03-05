@@ -101,3 +101,11 @@ main{
     font-size: 1.25rem;
     margin-right: 6px;
 }
+
+footer{
+    display: flex;
+}
+
+.socials{
+    margin-right: 40px;
+}
