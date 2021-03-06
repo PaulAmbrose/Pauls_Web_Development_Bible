@@ -65,10 +65,16 @@ main{
 
 .main--content{
     flex: 1;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .main--image{
     flex: 1;
+}
+
+.main--image img{
+    width: 100%; 
 }
 
 .headline{
@@ -134,4 +140,4 @@ footer{
         display: block;
     }
 }
-/*20:32*/
+/**/
