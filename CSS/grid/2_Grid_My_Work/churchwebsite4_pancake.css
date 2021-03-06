@@ -135,9 +135,28 @@ footer{
     color: #333;
 }
 
+.menu-button{
+    flex-grow: 1;
+}
+
+.menu-button button{
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    
+}
+
 @media only screen and (max-width: 660px){
     main{
         display: block;
     }
+    header .logo{
+        display: none;
+    }
+
+    .navigation{
+        display: none;
+    }
 }
+
 /**/
