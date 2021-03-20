@@ -137,6 +137,7 @@ footer{
 
 .menu-button{
     flex-grow: 1;
+    display: none;
 }
 
 .menu-button button{
@@ -144,6 +145,33 @@ footer{
     background-color: transparent;
     font-size: 1.5rem;
     
+}
+
+.mobile-navigation{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    padding: 24px;
+    display:none;
+}
+
+.mobile-navigation--header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mobile-navigation--item{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #bdbdbd;
+    display: block;
+    margin-bottom: 24px;
+}
+
+.mobile-navigation--item__active{
+    color: #333;
 }
 
 @media only screen and (max-width: 660px){
@@ -156,6 +184,14 @@ footer{
 
     .navigation{
         display: none;
+    }
+
+    .mobile-navigation{
+        display: block;
+    }
+
+    .menu-button{
+        display: block;
     }
 }
 
