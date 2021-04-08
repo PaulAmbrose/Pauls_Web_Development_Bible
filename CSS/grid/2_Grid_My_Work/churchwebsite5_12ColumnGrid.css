@@ -51,3 +51,14 @@ p{
     padding: 24px;
     border-radius: 8px;
 }
+
+.panel__heading{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.panel__subheading{
+    margin: 0;
+    font-size: 12px;
+}
