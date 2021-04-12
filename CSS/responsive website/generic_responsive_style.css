@@ -88,6 +88,10 @@ main{
     flex: 1;
 }
 
+.main--img img{
+    width: 100%;
+}
+
 footer{
     display: flex;
     color: #bdbdbd;
@@ -105,6 +109,11 @@ footer{
 {
     main{
         display: block;
-
+    }
+    header .logo{
+        display:none;
+    }
+    .navigation{
+        display:none;
     }
 }
