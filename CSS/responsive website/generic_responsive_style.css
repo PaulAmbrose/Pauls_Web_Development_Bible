@@ -38,5 +38,7 @@ header{
 }
 
 .navigation--button{
+    border: none;
+    background: linear-gradient(270deg, #FAA245 0%, #DB328A 37.25%, #753872 100%);
     
 }
