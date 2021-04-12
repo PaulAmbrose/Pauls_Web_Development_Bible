@@ -4,3 +4,24 @@
     color: inherit;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+
+    color: #333;
+}
+
+p{
+    max-width: 600px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+.navigation{
+    flex-grow: 1;
+}
+
