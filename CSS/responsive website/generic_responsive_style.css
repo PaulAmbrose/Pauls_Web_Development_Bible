@@ -12,6 +12,11 @@ body {
     color: #333;
 }
 
+#container{
+    max-width: 1200px;
+    padding: 24px;
+}
+
 p{
     max-width: 600px;
 }
@@ -23,5 +28,15 @@ header{
 
 .navigation{
     flex-grow: 1;
+    margin-left: 40px;
+
+}
+.navigation--item{
+    text-decoration: none;
+    color: #bdbdbd;
+    margin-left: 24px;
 }
 
+.navigation--button{
+    
+}
