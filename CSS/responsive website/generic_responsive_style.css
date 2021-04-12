@@ -69,6 +69,27 @@ main{
     margin-bottom: 40px;
 }
 
+.play-button{
+    padding: 10px 36px;
+    border: 1px solid #e0e0e0;
+    background: transparent;
+    border-radius: 50px;
+}
+
 .main--img{
     flex: 1;
 }
+
+footer{
+    display: flex;
+    color: #bdbdbd;
+}
+
+.socials{
+    margin-right: 40px;
+}
+
+.socials--item{
+    margin-right:12px;
+}
+
