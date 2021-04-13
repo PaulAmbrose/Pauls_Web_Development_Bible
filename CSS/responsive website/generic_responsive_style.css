@@ -121,6 +121,7 @@ footer{
     height: 100vh;
     background-color: white;
     padding: 24px;
+    display: none;
 }
 
 .mobile-navigation--header{
@@ -153,5 +154,8 @@ footer{
     }
     .navigation{
         display:none;
+    }
+    .mobile-navigation{
+        display: block;
     }
 }
