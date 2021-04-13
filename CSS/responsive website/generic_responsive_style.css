@@ -109,6 +109,12 @@ footer{
     flex-grow: 1;
 }
 
+.menu-button button{
+    border:none;
+    background-color: transparent;
+    font-size: 1.5rem;
+}
+
 @media only screen and (max-width: 660px)
 {
     main{
