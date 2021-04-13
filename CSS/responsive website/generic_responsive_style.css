@@ -124,12 +124,6 @@ footer{
     display: none;
 }
 
-.mobile-navigation--header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 .close-button button{
     border: none;
     background-color: transparent;
