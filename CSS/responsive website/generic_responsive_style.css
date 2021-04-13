@@ -115,6 +115,26 @@ footer{
     font-size: 1.5rem;
 }
 
+.mobile-navigation{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    padding: 24px;
+}
+
+.mobile-navigation--header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.close-button button{
+    border: none;
+    background-color: transparent;
+    font-size: 1.4;
+}
+
 @media only screen and (max-width: 660px)
 {
     main{
