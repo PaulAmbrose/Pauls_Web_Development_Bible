@@ -107,6 +107,7 @@ footer{
 
 .menu--button{
     flex-grow: 1;
+    display: none;
 }
 
 .menu-button button{
@@ -157,6 +158,9 @@ footer{
         display:none;
     }
     .mobile-navigation{
+        display: block;
+    }
+    .menu--button{
         display: block;
     }
 }
