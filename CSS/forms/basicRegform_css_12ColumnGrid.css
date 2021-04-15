@@ -87,4 +87,6 @@ a{
     border-bottom: 1px solid var(--border-color);
     width: 100%;
     outline: none;
+    padding: 0;
+    height: 28px;
 }
