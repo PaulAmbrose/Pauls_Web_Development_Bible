@@ -90,3 +90,13 @@ a{
     padding: 0;
     height: 28px;
 }
+
+.name{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.date-of-birth__heading{
+    font-size: 12px;
+}
