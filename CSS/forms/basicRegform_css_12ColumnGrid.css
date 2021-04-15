@@ -117,4 +117,5 @@ a{
     border-bottom: 1px solid;
     border-color: var(--border-color);
     height: 28px;
+    padding: 0;
 }
