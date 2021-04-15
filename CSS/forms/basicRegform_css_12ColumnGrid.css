@@ -104,3 +104,17 @@ a{
     margin: 0;
     margin-bottom: 8px;
 }
+
+.dropdown label{
+    font-size: 12px;
+    color: var(--text-color);
+    display: block;
+}
+
+.dropdown select{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid;
+    border-color: var(--border-color);
+    height: 28px;
+}
