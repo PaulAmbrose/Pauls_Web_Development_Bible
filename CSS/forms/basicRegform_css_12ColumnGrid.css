@@ -119,3 +119,9 @@ a{
     height: 28px;
     padding: 0;
 }
+
+.date-of-birth__input{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+}
