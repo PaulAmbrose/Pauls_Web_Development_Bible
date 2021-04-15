@@ -130,8 +130,7 @@ footer{
 }
 
 .mobile-navigation__open{
-    transform: translateX(0);
-
+    /*transform: translateX(0);*/
 }
 
 .mobile-navigation--header{
