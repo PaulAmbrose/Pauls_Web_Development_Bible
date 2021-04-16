@@ -19,6 +19,7 @@ body{
     height: 100vh;
 
     background-image: url("images/skyline.jpg");
+    background-size: cover;
 }
 
 p{
@@ -45,6 +46,8 @@ a{
 
 .logo-container{
     grid-column: 1/5;
+    display: flex;
+    justify-content: center;
 }
 
 .panel-container{
@@ -142,4 +145,25 @@ button{
     color: white;
     background-color: var(--primary-color);
     border-radius: 8px;
+}
+
+@media only screen and (max-width: 660px){
+    .logo-container{
+        display: none;
+    }
+
+    .panel-container{
+        grid-column: 1 / span 12;
+    }
+}
+
+@media only screen and (max-width: 460px){
+    #container{
+        padding: 0;
+    }
+
+    .panel{
+        height: 100vh;
+        border-radius: 0px;
+    }
 }
