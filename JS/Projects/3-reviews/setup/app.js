@@ -37,3 +37,10 @@ const reviews = [
       "Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic. ",
   },
 ];
+
+//select items
+const img = document.getElementById("person-img");
+const img = document.getElementById("author");
+const img = document.getElementById("job");
+const img = document.getElementById("info");
+
