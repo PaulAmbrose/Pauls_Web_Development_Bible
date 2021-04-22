@@ -50,10 +50,13 @@ const randomBtn = document.querySelector('.random-btn');
 
 let currentItem = 0;
 window.addEventListener('DOMContentLoaded', function(){
-  const item = reviews[currentItem];
+  showPerson(currentItem);
+});
+
+function showPerson(person){
+  const item = reviews[person];
   img.src = item.img;
   author.textContent = item.name;
   job.textContent = item.job;
   info.textContent = item.text;
-
-});
+}
