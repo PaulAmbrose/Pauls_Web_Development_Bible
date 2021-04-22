@@ -63,11 +63,17 @@ function showPerson(person){
 
 nextBtn.addEventListener('click', function(){
   currentItem++;
+  if(currentItem > 3){
+    currentItem = 0;
+  }
   showPerson(currentItem);
 })
 
 prevBtn.addEventListener('click', function(){
   currentItem--;
+  if(currentItem < 0){
+    currentItem = 3;
+  }
   showPerson(currentItem);
 })
 
