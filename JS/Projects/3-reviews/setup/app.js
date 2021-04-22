@@ -60,3 +60,18 @@ function showPerson(person){
   job.textContent = item.job;
   info.textContent = item.text;
 }
+
+nextBtn.addEventListener('click', function(){
+  currentItem++;
+  showPerson(currentItem);
+})
+
+prevBtn.addEventListener('click', function(){
+  currentItem--;
+  showPerson(currentItem);
+})
+
+randomBtn.addEventListener('click', function(){ 
+  showPerson(randomNumber = Math.floor(Math.random()*4));
+}
+)
