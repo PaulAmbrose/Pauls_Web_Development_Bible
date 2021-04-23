@@ -16,4 +16,6 @@ const links = document.querySelector('.links');
 //    }
 //});
 
-links.classList.toggle("show-links");
+navToggle.addEventListener('click', function(){
+    links.classList.toggle("show-links")
+})
