@@ -29,5 +29,12 @@ a {
   padding: 12px 8px;
   margin: 16px 12px;
 
-  display: inline-block;
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+}
+
+a:first-child{
+
+  margin-right: auto;
 }
