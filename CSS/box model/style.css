@@ -24,4 +24,10 @@ a {
   text-decoration: none;
   color: #078080;
   background-color: #fef6e4;
+
+  border: solid 4px;
+  padding: 12px 8px;
+  margin: 16px 12px;
+
+  display: inline-block;
 }
