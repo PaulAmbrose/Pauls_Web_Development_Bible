@@ -39,5 +39,7 @@ a:first-child{
 }
 
 .container{
-  height: 20;
+  height: 200px;
+  border: solid;
+  display: flex;
 }
