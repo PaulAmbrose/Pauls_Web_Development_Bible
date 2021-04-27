@@ -13,18 +13,4 @@ a {
   border: solid 4px;
   padding: 12px 8px;
   margin: 16px 12px;
-
-  display: block;
-  width: fit-content;
-  margin-left: auto;
-}
-
-a:first-child{
-  margin-right: auto;
-}
-
-.container{
-  height: 200px;
-  border: solid;
-  display: flex;
 }
