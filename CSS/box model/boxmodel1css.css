@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playfair+Display&display=swap");
 
 
-/*Syntax
+/*
+--Syntax
 
 border:  style thickness color
 border-right-color: color
@@ -9,6 +10,31 @@ border-right-color: color
 margin or padding: top right bottom left
 margin or padding: top/bottom right/left
 
+
+--Overlap
+by default, element is inline padding and margin
+do not push the element away from other elements
+
+Fix this by:
+display: block;
+  takes a new line and space available
+
+display: inline-block;
+  element does not move to a new line, padding 
+  and margin applied
+
+--Collapse:
+display: block;
+width: fit-content;
+  top and bottom margins collapse only
+  but takes bigger value when elements collapse
+
+margin: auto
+  expands as much as it can
+
+margin-left: auto;
+margin-right: auto;
+  
 
 */
 
