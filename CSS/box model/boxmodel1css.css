@@ -34,7 +34,20 @@ margin: auto
 
 margin-left: auto;
 margin-right: auto;
-  
+  maximises margin either side and places item 
+  in the center
+
+  centering an item in a div container.
+  give the item margin: auto
+  give the container display: flex;
+
+--Setting Width:
+  set as width: 120px; is only content and doesnt
+  include padding, border and margin
+box-sizing: border-box;
+  resolves this
+
+
 
 */
 
