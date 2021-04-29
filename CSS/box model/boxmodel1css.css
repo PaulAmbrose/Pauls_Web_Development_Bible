@@ -1,12 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playfair+Display&display=swap");
 
+
+/*Syntax
+
+border:  style thickness color
+border-right-color: color
+
+margin or padding: top right bottom left
+margin or padding: top/bottom right/left
+
+
+*/
+
 * {
   font-family: "Montserrat", sans-serif;
 }
 
 
 a {
-  display: inline-block;
+  display:inline-block;
 
   text-decoration: none;
   color: #078080;
@@ -14,8 +26,6 @@ a {
 
   border: solid 4px;
   padding: 12px 8px;
-  margin: 16px 12px;
 
-  /*width:max-content;*/
 }
 
