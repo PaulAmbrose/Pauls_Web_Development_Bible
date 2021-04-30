@@ -31,4 +31,9 @@
 
     can be used to create adaptive font and padding
 
--
+-Character Units
+    When want to limit flexible size of a paragraph
+        max-width: 50ch;
+
+    relative to the width of the 0 character regardless
+    of font size or style
