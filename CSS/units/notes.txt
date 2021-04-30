@@ -19,4 +19,16 @@
     Can sent font size with view height
     font size will be relative to window size
 
+-Rems and Ems
+    1 rem = 16px and can be used instead of Pixels  
+        font-size: 1rem;
+    why use? Rem is relative to route element
+    and can be adjusted relatively, based on browser
+    settings our root.  i.e. 20px in root is 1rem
+    and 2rem would therefore be 40px.
+
+    em? - like rem but relative to parent element
+
+    can be used to create adaptive font and padding
+
 -
