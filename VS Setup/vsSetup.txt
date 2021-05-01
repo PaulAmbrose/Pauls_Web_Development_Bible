@@ -4,6 +4,9 @@ Run all Command
 Visual Studio Playground
     Emmet - html/css shortcuts
         New HTML > ! > Enter to get boiler plate
+        Control Shift P > format document - standardises formats for you
+            settings > text editor > format on save ensures does this each time you save.
+
 
 Terminal
     control ' to open
