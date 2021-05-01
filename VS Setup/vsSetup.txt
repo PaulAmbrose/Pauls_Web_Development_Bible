@@ -1,0 +1,5 @@
+Run all Command
+    Control Shift P
+
+Visual Studio Playground
+    Emmet - html/css shortcuts
