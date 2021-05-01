@@ -13,3 +13,5 @@ Terminal
     standard bash navigations
     code . to open new window in current location
 
+Extensions
+    Live Server install.  control shift P >> open with live server
