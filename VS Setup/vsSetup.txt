@@ -3,3 +3,10 @@ Run all Command
 
 Visual Studio Playground
     Emmet - html/css shortcuts
+        New HTML > ! > Enter to get boiler plate
+
+Terminal
+    control ' to open
+    standard bash navigations
+    code . to open new window in current location
+
