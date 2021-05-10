@@ -16,6 +16,16 @@
 
 -ABSOLUTE
 
+  If you do not want it to interact with other elements
+  This will place the item at the top left corner
+  **note also need to change parent container from 
+  static to something else, relative for example
     position: absolute;
     top: 0;
     left: 0;
+
+-FIXED
+
+  As absolute but always relative to view port
+  and not the parent element
+  
