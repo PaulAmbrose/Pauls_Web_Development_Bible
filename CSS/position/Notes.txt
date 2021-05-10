@@ -20,17 +20,20 @@
   This will place the item at the top left corner
   **note also need to change parent container from 
   static to something else, relative for example
-    position: absolute;
-    top: 0;
-    left: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
 
 -FIXED
 
   As absolute but always relative to view port
   and not the parent element
   So always there no matter where you scroll
-    position: fixed;
-    top: 0;
-    left: 0;
+      position: fixed;
+      top: 0;
+      left: 0;
 
--
+-STICKY
+
+  Keeps position even when scroll
+  
