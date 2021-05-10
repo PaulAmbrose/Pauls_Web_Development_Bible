@@ -1,0 +1,21 @@
+-STATIC
+
+  This is the default position
+  Items will be stacked or inline
+
+-RELATIVE
+
+  Allows to move an item relative to top, bottom, left or right
+      E.G
+      position: relative;
+      top: 40px;
+
+      Can adjust which item is on top with:
+      z-index: 1; (higher the number means
+      higher up the element is placed)
+
+-ABSOLUTE
+
+    position: absolute;
+    top: 0;
+    left: 0;

@@ -81,6 +81,7 @@ nav {
 }
 
 .photos {
+  padding: 40px;
 }
 
 .photos img {
@@ -90,11 +91,17 @@ nav {
 }
 
 .puppy-photo {
+  position: relative;
+  top: 40px;
+  left: 20px;
 
+  z-index: 1;
 }
 
 .kitty-photo {
-
+  position: relative;
+  bottom: 40px;
+  right: 20px;
 }
 
 section.hero {
@@ -123,6 +130,10 @@ section.about {
 
 .about__content {
   grid-column: 3 / span 4;
+
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .about__content img {
