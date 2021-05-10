@@ -36,4 +36,11 @@
 -STICKY
 
   Keeps position even when scroll
-  
+  Fixed doesnt take space, sticky doesnt
+
+  Only sticks to section it is in.
+
+-FLOAT
+
+  Wraps items after item
+    float: left;
