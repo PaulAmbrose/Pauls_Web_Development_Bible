@@ -28,4 +28,9 @@
 
   As absolute but always relative to view port
   and not the parent element
-  
+  So always there no matter where you scroll
+    position: fixed;
+    top: 0;
+    left: 0;
+
+-
