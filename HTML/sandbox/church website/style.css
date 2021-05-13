@@ -4,6 +4,6 @@
   color: inherit;
 }
 
-.logo{
-  font-color: rgba(10, 10, 175, 0.842);
+#logo{
+  color: rgba(10, 10, 175, 0.842);
 }
