@@ -1,0 +1,9 @@
+*{
+  box-sizing: border-box;
+  font: inherit;
+  color: inherit;
+}
+
+.logo{
+  font-color: rgba(10, 10, 175, 0.842);
+}
