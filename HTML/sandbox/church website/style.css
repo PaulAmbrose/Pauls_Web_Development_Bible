@@ -34,3 +34,8 @@
     position: relative;
     left: 550px;
   }
+
+  .social-item{
+    position: relative;
+    right: 50px;
+  }
