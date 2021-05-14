@@ -34,3 +34,8 @@
     position: relative;
     left: 550px;
   }
+
+.banner-top{
+  width: 100%;
+  height: 10%;
+}
