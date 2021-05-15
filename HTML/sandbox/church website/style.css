@@ -48,15 +48,15 @@
   padding-right: 20px;
   position: relative;
   left: 500px;
-  top: 200px
+  top: 150px
 }
 
 .banner-text-blurb{
-  color: #0a0aafd7;
+  color: white;
   font-family: 'Nunito', sans-serif;
   font-size: 30px;
   padding-right: 20px;
   position: relative;
   left: 500px;
-  top: 225px
+  top: 165px;
 }
