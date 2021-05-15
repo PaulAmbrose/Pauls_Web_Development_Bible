@@ -35,7 +35,28 @@
     left: 550px;
   }
 
-.main-container{
-  width:100%;
-  height: 100px;
+.welcome-banner{
+  width: 100%;
+  height:500px;
+  background-color: rgba(49, 51, 41, 0.534);
+}
+
+.banner-text-welcome{
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 60px;
+  padding-right: 20px;
+  position: relative;
+  left: 500px;
+  top: 200px
+}
+
+.banner-text-blurb{
+  color: #0a0aafd7;
+  font-family: 'Nunito', sans-serif;
+  font-size: 30px;
+  padding-right: 20px;
+  position: relative;
+  left: 500px;
+  top: 225px
 }
