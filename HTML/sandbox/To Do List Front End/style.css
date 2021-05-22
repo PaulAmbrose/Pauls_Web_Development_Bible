@@ -53,9 +53,27 @@
 }
 
 #addItem{
-  
+  position: absolute;
+  width: 224px;
+  height: 60px;
+  left: 477px;
+  top: 118px;
+
+  background: #FF9966;
+  border-radius: 33px;
 }
 
 #addRecurringItem{
+  position: absolute;
+  width: 224px;
+  height: 60px;
+  left: 477px;
+  top: 186px;
 
+  background: #FF9966;
+  border-radius: 33px;
+}
+
+#cornerPiece1{
+  
 }
