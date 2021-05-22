@@ -74,6 +74,25 @@
   border-radius: 33px;
 }
 
-#cornerPiece1{
+#leftCorner{
+  position: absolute;
+  width: 615px;
+  height: 165px;
+  left: 0px;
+  top: 181px;
+
+  background: #9999FF;
+  border-radius: 0px 0px 0px 100px;
+}
+
+#blackout{
+  height: 145px;
+  width: 284px;
+  background: #020202;
+  border-radius: 0px 0px 0px 50px;
   
+}
+
+#bottomEdge{
+
 }
