@@ -43,11 +43,19 @@
 #recurringList
 {
   position: absolute;
-  left: 40.49%;
-  right: 24.07%;
-  top: 6.06%;
-  bottom: 55.15%;
+  width: 217px;
+  height: 61px;
+  left: 250px;
+  top: 186px;
 
   background: #9999FF;
   border-radius: 33px;
+}
+
+#addItem{
+  
+}
+
+#addRecurringItem{
+
 }
