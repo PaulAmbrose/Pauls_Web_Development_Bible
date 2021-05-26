@@ -123,7 +123,7 @@
 
 #bottomEdge3{
   position: absolute;
-  width: 456px;
+  width: 1000px;
   height: 23px;
   left: 883px;
   top: 325px;
@@ -153,7 +153,7 @@
 
 #bottomEdge6{
   position: absolute;
-  width: 456px;
+  width: 1000px;
   height: 23px;
   left: 883px;
   top: 358px;
@@ -175,12 +175,43 @@
 
 #blackOutMirror{
   position: absolute;
-  width: 284px;
+  width: 615px;
   height: 145px;
   left: 175px;
-  top: 524px;
+  top: 381px;
 
   background: #020202;
   border-radius: 0px 0px 0px 50px;
   transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+#bottomFill1{
+  position: absolute;
+  width: 175px;
+  height: 198px;
+  left: 0px;
+  top: 533px;
+
+  background: #CC6666;
+}
+
+#bottomFill2{
+  
+position: absolute;
+width: 175px;
+height: 40px;
+left: 0px;
+top: 741px;
+
+background: #FF9900;
+}
+
+#bottomFill3{
+  position: absolute;
+  width: 175px;
+  height: 234px;
+  left: 0px;
+  top: 790px;
+
+  background: #FF9966;
 }
