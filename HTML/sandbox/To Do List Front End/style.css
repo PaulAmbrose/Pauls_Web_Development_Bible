@@ -11,7 +11,7 @@
   background: #CC99CC;
   left: 0px;
   top: 0px;
-  z-index: 1;
+
 
 }
 
@@ -22,7 +22,6 @@
   height: 61px;
   left: 250px;
   top: 43px;
-  z-index: 1;
 
   background: #9999FF;
   border-radius: 33px;
@@ -34,7 +33,6 @@
   height: 61px;
   left: 250px;
   top: 115px;
-  z-index: 1;
 
   background: #9999FF;
   border-radius: 33px;
@@ -100,11 +98,66 @@
   border-radius: 0px 0px 0px 50px;  
   height: 145px;
   width: 450px;
-  background: #020202;
   border-radius: 0px 0px 0px 50px;
   
 }
 
-#bottomEdge{
+#bottomEdge1{
+  position: absolute;
+  width: 39px;
+  height: 21px;
+  left: 623px;
+  top: 325px;
 
+  background: #FF9900;
+}
+
+#bottomEdge2{
+  position: absolute;
+  width: 205px;
+  height: 22px;
+  left: 670px;
+  top: 325px;
+  
+  background: #CC99CC;
+}
+
+#bottomEdge3{
+  position: absolute;
+  width: 456px;
+  height: 23px;
+  left: 883px;
+  top: 325px;
+  
+  background: #CC99CC;
+}
+
+#bottomEdge4{
+  position: absolute;
+  width: 39px;
+  height: 21px;
+  left: 623px;
+  top: 358px;
+  
+  background: #FFCC99;
+}
+
+#bottomEdge5{
+  position: absolute;
+  width: 205px;
+  height: 22px;
+  left: 670px;
+  top: 359px;
+  
+  background: #CC99CC;
+}
+
+#bottomEdge6{
+  position: absolute;
+  width: 456px;
+  height: 23px;
+  left: 883px;
+  top: 358px;
+  
+  background: #CC99CC;
 }
