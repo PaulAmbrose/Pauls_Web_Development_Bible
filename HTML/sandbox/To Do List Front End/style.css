@@ -1,11 +1,8 @@
 #desktop1
 {
-  position: relative;
-  background-color: #020202;
-  box-sizing: border-box;
-  z-index: 0;
+  background: black;
+  display: block;
 }
-
 
 #topcorner
 {
