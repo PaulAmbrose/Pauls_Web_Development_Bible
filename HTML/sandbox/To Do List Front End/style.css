@@ -88,7 +88,6 @@
 }
 
 #blackout{
-  
   position: absolute;
   left: 175px;
   top: 181px;
@@ -162,12 +161,12 @@
   background: #CC99CC;
 }
 
-#LeftCornerMirror{
+#leftCornerMirror{
   position: absolute;
-  width: 441px;
+  width: 615px;
   height: 165px;
   left: 0px;
-  top: 524px;
+  top: 358px;
 
   background: #CC6666;
   border-radius: 0px 0px 0px 100px;
