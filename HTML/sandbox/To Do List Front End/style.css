@@ -161,3 +161,27 @@
   
   background: #CC99CC;
 }
+
+#LeftCornerMirror{
+  position: absolute;
+  width: 441px;
+  height: 165px;
+  left: 0px;
+  top: 524px;
+
+  background: #CC6666;
+  border-radius: 0px 0px 0px 100px;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+#blackOutMirror{
+  position: absolute;
+  width: 284px;
+  height: 145px;
+  left: 175px;
+  top: 524px;
+
+  background: #020202;
+  border-radius: 0px 0px 0px 50px;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
