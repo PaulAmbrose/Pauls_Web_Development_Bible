@@ -1,3 +1,17 @@
+button{
+  border: 0;
+  padding: 0;
+  text-align: right;
+  display: block;
+  font-size: 14px;
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 14px;
+  padding-top: 15px;
+  padding-right: 10px;
+  border-radius: 33px;
+  width: 150px;
+}
+
 #desktop1
 {
   background: black;
@@ -11,68 +25,55 @@
   background: #CC99CC;
   left: 0px;
   top: 0px;
-
-
 }
 
-#todayItems
+#todayItems-btn
 {
   position: absolute;
-  width: 217px;
-  height: 61px;
   left: 250px;
   top: 43px;
 
   background: #9999FF;
-  border-radius: 33px;
+
 }
 
-#itemsList{
-  position: absolute;
-  width: 217px;
-  height: 61px;
-  left: 250px;
-  top: 115px;
-
-  background: #9999FF;
-  border-radius: 33px;
-}
-
-#recurringList
+#itemsList-btn
 {
   position: absolute;
-  width: 217px;
-  height: 61px;
   left: 250px;
-  top: 186px;
+  top: 80px;
+
+  background: #9999FF;
+}
+
+#recurringList-btn
+{
+  position: absolute;
+  left: 250px;
+  top: 117px;
   z-index: 1;
 
   background: #9999FF;
-  border-radius: 33px;
 }
 
-#addItem{
+#addItem-btn
+{
   position: absolute;
-  width: 224px;
-  height: 60px;
-  left: 477px;
-  top: 118px;
+  left: 410px;
+  top: 43px;
   z-index: 1;
 
   background: #FF9966;
-  border-radius: 33px;
 }
 
-#addRecurringItem{
+#addRecurringItem-btn
+{
   position: absolute;
-  width: 224px;
-  height: 60px;
-  left: 477px;
-  top: 186px;
+  left: 410px;
+  top: 80px;
   z-index: 1;
 
   background: #FF9966;
-  border-radius: 33px;
 }
 
 #leftCorner{
@@ -123,7 +124,7 @@
 
 #bottomEdge3{
   position: absolute;
-  width: 1000px;
+  width: 1100px;
   height: 23px;
   left: 883px;
   top: 325px;
@@ -153,7 +154,7 @@
 
 #bottomEdge6{
   position: absolute;
-  width: 1000px;
+  width: 1100px;
   height: 23px;
   left: 883px;
   top: 358px;
