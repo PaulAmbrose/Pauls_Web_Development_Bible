@@ -1,9 +1,9 @@
 #desktop1
 {
   position: relative;
-  background: #020202;
+  background-color: #020202;
   box-sizing: border-box;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 0;
 }
 
 
@@ -15,6 +15,8 @@
   background: #CC99CC;
   left: 0px;
   top: 0px;
+  z-index: 1;
+
 }
 
 #todayItems
@@ -24,6 +26,7 @@
   height: 61px;
   left: 250px;
   top: 43px;
+  z-index: 1;
 
   background: #9999FF;
   border-radius: 33px;
@@ -35,6 +38,7 @@
   height: 61px;
   left: 250px;
   top: 115px;
+  z-index: 1;
 
   background: #9999FF;
   border-radius: 33px;
@@ -47,6 +51,7 @@
   height: 61px;
   left: 250px;
   top: 186px;
+  z-index: 1;
 
   background: #9999FF;
   border-radius: 33px;
@@ -58,6 +63,7 @@
   height: 60px;
   left: 477px;
   top: 118px;
+  z-index: 1;
 
   background: #FF9966;
   border-radius: 33px;
@@ -69,6 +75,7 @@
   height: 60px;
   left: 477px;
   top: 186px;
+  z-index: 1;
 
   background: #FF9966;
   border-radius: 33px;
@@ -80,14 +87,23 @@
   height: 165px;
   left: 0px;
   top: 181px;
+  z-index: 0;
 
   background: #9999FF;
   border-radius: 0px 0px 0px 100px;
 }
 
 #blackout{
+  
+  position: absolute;
+  left: 175px;
+  top: 181px;
+  z-index: 0;
+
+  background: #020202;
+  border-radius: 0px 0px 0px 50px;  
   height: 145px;
-  width: 284px;
+  width: 450px;
   background: #020202;
   border-radius: 0px 0px 0px 50px;
   
